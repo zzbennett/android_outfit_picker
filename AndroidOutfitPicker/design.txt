@@ -1,0 +1,103 @@
+TODO:
+-----
+
+1. Learn how to use git, android and eclipse DONE
+	a. set up android project in eclipse DONE
+	b. put it in a git repo DONE
+	c. set up remote repo in github DONE
+	
+2. Refresh Android skillz
+	a. Do several tutorials
+	b. Work more on Go Fish app
+
+3. Begin Outfit Picker
+
+
+FEATURES:
+---------
+-generate outfits
+	*allow user to easily generate outfit after outfit if they are displeased
+	with the suggestions
+	*have app 'learn' which outfits the user prefers
+		**neural network? k nearest neighbors?? not sure about this yet
+-base outfits on weather
+	*automatically get weather information from online somewhere?
+	*have user input weather themselves
+-user can indicate how formal they want the outfit to be
+-user can indicate when clothes are dirty
+-user can easily mark off which clothes are now clean after doing laundry
+-user can input their own fashion rules, should they choose (have default rules too)
+-user can easily input what articles of clothing they have
+	*enter in description of clothing
+	*chose attributes from drop down lists
+	*optionally add photo?
+-user can easily browse through their clothing by type of article 
+ and remove items they no longer have
+-user's wardrobe is stored in android's internal sqlite database
+
+
+REPESENTATION OF CLOTHING:
+--------------------------
+-attributes are:
+	*clothing id (for primary key)
+	*description
+	*article type
+	*color 1
+	*color 2
+	*color 3
+	*color 4
+	*color 5
+	*fabric 1
+	*fabric 2
+	*pattern
+	*formalness
+	*volume
+	*weather appropriateness
+	*times worn? for laundry feature
+	
+
+DESIGN FEATURES:
+----------------
+-Tabs on top of app differentiate functionality
+-Default tab is the one for generating an outfit
+-Unless wardrobe is empty, then it's the tab for entering clothes
+-Tabs will be:
+	*Generate Outfit
+	*Browse/Edit Wardrobe
+	*Edit Style (change fashion rules)
+	*Laundry (mark off which clothes are clean now)
+	
+-Generate Outfit tab:
+	*Drop down indicating how hot/cold the weather is going to be
+	*Drop down indicating how formal the outfit should be
+	*Big button to generate outfit
+		*Goes to new screen
+		*shows outfit
+		*big button to generate another outfit
+		*button to say 'wear this outfit!'
+			**this increments times worn for all articles, ask user if clothes are dirty?
+		*learn which outfits user likes and dislikes
+			*maybe do manhattan distance, the more similar two outfits are to each other,
+			 the closer they are. If an outfit is close to one the user didn't like before,
+			 don't pick outfits that are really similar?
+-Browse/Edit wardrobe tab:
+	*Button to add new clothing
+	*Be able to select an article and remove from wardrobe
+	*Browse by article of clothing
+-Laundry tab:
+	*Show recent outfits
+		*selecting and holding an article will give the option to remove from wardrobe
+		 or add to dirty clothes (if in clean clothes; if in dirty clothes, it shows
+		 adding to clean clothes).
+	*Show all dirty clothes
+		*be able to select multiple at once and mark selected as clean
+-Edit style:
+	*Show default fashion rules
+	*Be able to remove and add new ones
+	*This feature is going to need some thought...
+		
+		
+		
+		
+		
+	
