@@ -8,6 +8,8 @@ import android.support.v4.app.NavUtils;
 
 public class MainActivity extends Activity {
 
+	//checking to see if git is working
+	
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
