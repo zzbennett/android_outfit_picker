@@ -10,7 +10,57 @@ TODO:
 	a. Do several tutorials
 	b. Work more on Go Fish app
 
-3. Begin Outfit Picker
+Begin Outfit Picker
+
+3. Get the tabs up and running
+
+4. Browse/Edit Wardrobe tab
+	a. Make bare bones interface to create a new article of clothing
+	b. Figure out how to save the article in the database
+	c. Flesh out interface
+		i. put in rest of attributes for clothing
+		ii. make interface kind of resemble what finished interface will look likeA
+	d. Enter in my whole wardrobe
+	e. Fix anything that felt awkward when inputing my wardrobe
+	
+5. Generate outfit tab
+	a. Get this to actually generate an outfit
+		*0. figure out how to represent fashion rules
+			-user needs to be able to override default rules and add their own
+			-how to do this??
+			-maybe I can come back to this...
+		i. figure out which algorithm to use for this (AC3 most likely)
+		ii. implement algorithm
+		iii. display generated outfit somehow
+	b. Flesh out user interface
+		i. design first view, before any outfits are generated
+			-need to be able to specify weather and formalness
+		ii. design second view, with outfit generated
+			-be able to change weather and formalness? Or maybe user just uses back button
+		iii. make button that will generate outfit after outfit
+		iv. make a 'wear it!' button, store outfit in list of recently worn outfits
+		
+6. Laundry Feature
+	a. display all recently worn outfits OR
+	a. display clothes in order of how many times they've been worn
+	b. display all dirty clothes in laundry
+	c. make user interface for putting outfits in the laundry
+		i. user clicks a button like, 'put clothes in laundry'
+		ii. user can check off clothes that are dirty.
+		iii. user clicks 'done' button and all clothes go in the laundry
+	d. make interface for taking clothes out of the laundry
+		i. similar to putting clothes in dirty laundry, only instead of
+		viewing the list of recent outfits, the user sees a list of clothes
+		in the laundry
+
+7. Edit fashion rules
+	a. Maybe user can just specify specific articles of clothing that shouldn't
+	   ever be in the same outfit?
+	b. Allow user to select from a few different fashion options, i.e. 
+		-preferences for dark colors vs. light colors
+		-preferences for patterns vs. solids
+		*this way I can pre program the fashion options and I don't have to 
+		make some interface for the user to input arbitrary fashion rules
 
 
 FEATURES:
