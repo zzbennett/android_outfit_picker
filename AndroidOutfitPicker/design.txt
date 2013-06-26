@@ -6,13 +6,13 @@ TODO:
 	b. put it in a git repo DONE
 	c. set up remote repo in github DONE
 	
-2. Refresh Android skillz
+2. Refresh Android skillz DONE
 	a. Do several tutorials
 	b. Work more on Go Fish app
 
 Begin Outfit Picker
 
-3. Get the tabs up and running
+3. Get the tabs up and running DONE
 
 4. Browse/Edit Wardrobe tab
 	a. Make bare bones interface to create a new article of clothing
@@ -146,7 +146,11 @@ DESIGN FEATURES:
 	*Be able to remove and add new ones
 	*This feature is going to need some thought...
 		
-		
+-Article of clothing data structure:
+	*needs some display callback method so that whenever an article
+	of clothing is listed, it looks the same and has the same functionality (i.e
+	remove, add to laundry, etc.)
+	*all attributes retrieved from database on creation
 		
 		
 		

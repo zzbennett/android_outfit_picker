@@ -1,8 +1,12 @@
 <resources>
-
     <string name="app_name">AndroidOutfitPicker</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">MainActivity</string>
-
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_device">DeviceActivity</string>
+    <string name="outfit_fragment_string">Outfit Fragment View</string>
+    <string name="wardrobe_fragment_string">Wardrobe Fragment View</string>
+    <string name="laundry_fragment_string">Laundry Fragment View</string>
+    <string name="fashion_fragment_string">Fashion Fragment View</string>
 </resources>
