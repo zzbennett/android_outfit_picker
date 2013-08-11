@@ -15,13 +15,17 @@ Begin Outfit Picker
 3. Get the tabs up and running DONE
 
 3.25 Figure out how android sqlite database works
-	a. saving and accessing data
-	b. are all of the tables created when the app is downloaded? how does this work?
-	c. once this is all figured out, implement the code that makes the tables
+	a. saving and accessing data DONE
+	b. are all of the tables created when the app is downloaded? how does this work? DONE
+	c. once this is all figured out, implement the code that makes the tables DONE
 
-3.5 Make bare bones article of clothing data structure
-	a. on creation--make new row in database
-	b. deletion
+3.5 Make bare bones article of clothing data structure DONE
+	a. on creation--make new row in database DONE
+	b. deletion DONE
+	
+3.75 Make bare bones interface for adding and deleting garments
+	a. via dialog? It would be nice to have something more efficient, dialogs always seem to take forever to open and close
+	b. maybe dialog for now
 
 4. Browse/Edit Wardrobe tab
 	a. Make bare bones interface to create a new article of clothing
