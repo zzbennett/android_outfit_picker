@@ -1,5 +1,6 @@
 package com.bennett.androidoutfitpicker.models;
 
+//TODO have Garment extend some sort of class that will make it show up all nice and pretty in list views
 public class Garment {
 	/*
 	 * -attributes are:

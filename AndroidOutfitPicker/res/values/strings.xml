@@ -9,4 +9,5 @@
     <string name="wardrobe_fragment_string">Wardrobe Fragment View</string>
     <string name="laundry_fragment_string">Laundry Fragment View</string>
     <string name="fashion_fragment_string">Fashion Fragment View</string>
+    <string name="create_garment">A new a garment from your wardrobe.</string>
 </resources>

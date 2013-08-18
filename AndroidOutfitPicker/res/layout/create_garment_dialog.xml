@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/new_garment_dialog"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:layout_gravity="center" android:orientation="vertical"  >
+
+    <TextView
+        android:id="@+id/create_garment" android:text="Your name" 
+        android:layout_width="wrap_content" android:layout_height="wrap_content" />
+      
+    <EditText
+        android:id="@+id/txt_your_name"
+        android:layout_width="match_parent"  android:layout_height="wrap_content" 
+        android:inputType='text'
+        android:imeOptions="actionDone" />
+    
+    <Button
+        android:id="@+id/close_new_garment_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done" />
+    
+</LinearLayout>
